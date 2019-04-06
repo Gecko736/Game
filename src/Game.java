@@ -34,7 +34,6 @@ public class Game extends Application {
     private Text bluesLabel = new Text(630, 60, "Blues: " + blues + "/100");
     private Text yellowsLabel = new Text(630, 90, "Yellows: " + yellows + "/100");
     private Text gameOverAlert = new Text(630, 120, "Game Over");
-
     {
         redsLabel.setFont(new Font(20));
         bluesLabel.setFont(new Font(20));
@@ -239,13 +238,7 @@ public class Game extends Application {
                 gif.relocate(x, y);
                 color = fileName.charAt(5);
             } catch (FileNotFoundException e) {
-                reds = 0;
-                blues = 0;
-                yellows = 0;
-                updateHunger();
-                gameOverAlert.setText("404");
-                map.getChildren().add(gameOverAlert);
-                System.out.println(e.getMessage());
+                catchFileNotFound(e);
             }
         }
 
@@ -258,14 +251,18 @@ public class Game extends Application {
                 gif.setImage(new Image(new FileInputStream(fileName)));
                 color = fileName.charAt(5);
             } catch (FileNotFoundException e) {
-                reds = 0;
-                blues = 0;
-                yellows = 0;
-                updateHunger();
-                gameOverAlert.setText("404");
-                map.getChildren().add(gameOverAlert);
-                System.out.println(e.getMessage());
+                catchFileNotFound(e);
             }
+        }
+
+        private void catchFileNotFound(FileNotFoundException e) {
+            reds = 0;
+            blues = 0;
+            yellows = 0;
+            updateHunger();
+            gameOverAlert.setText("404");
+            map.getChildren().add(gameOverAlert);
+            System.out.println(e.getMessage());
         }
     }
 }
