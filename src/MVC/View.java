@@ -94,7 +94,7 @@ public class View extends Application {
         blueCoin = new Image(new FileInputStream("gifs/blue-coin.gif"));
         yellowCoin = new Image(new FileInputStream("gifs/yellow-coin.gif"));
         for (int i = 0; i < Control.getInitialCoins(); i++)
-            Control.addRandomCoin();
+            Control.maybeAddRandomCoin();
 
         Scene scene = new Scene(map);
         scene.setOnKeyPressed((e) -> {

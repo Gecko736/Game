@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bf01cf-9b11-4e9d-bf3d-037bee7877fe" name="Default" comment="I dunno. I played it again, and when I opened it, intellij asked me if I wanted to add a file to the git.">
-      <change afterPath="$PROJECT_DIR$/src/MVC/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Control.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Coord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Dir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC/View.java" afterDir="false" />
+    <list default="true" id="e2bf01cf-9b11-4e9d-bf3d-037bee7877fe" name="Default" comment="obligatory message">
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Coin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Control.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Coord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Dir.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Model$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/Size.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/View$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/View$Gif.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FXpractice/MVC/View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/GameAI/AI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FXpractice/Game$Gif.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FXpractice/Game$Gif.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FXpractice/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FXpractice/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +25,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
@@ -36,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MVC/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,21 +58,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MVC/Control.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+            <state relative-caret-position="612">
+              <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
               <folding>
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
+                <element signature="method#setView#0;class#Control#0" />
+                <element signature="method#keyPressed#0;class#Control#0" />
+                <element signature="method#moveGuy#0;class#Control#0" />
+                <element signature="method#addRandomCoin#0;class#Control#0" />
+                <element signature="method#randomCoinCoord#0;class#Control#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/GameAI/AI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MVC/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="e#3213#3214#0" expanded="true" />
                 <element signature="e#3240#3241#0" expanded="true" />
@@ -146,9 +165,11 @@
         <option value="$PROJECT_DIR$/src/MVC/Coin.java" />
         <option value="$PROJECT_DIR$/src/MVC/Coord.java" />
         <option value="$PROJECT_DIR$/src/Game.java" />
-        <option value="$PROJECT_DIR$/src/MVC/Control.java" />
         <option value="$PROJECT_DIR$/src/MVC/View.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Control.java" />
+        <option value="$PROJECT_DIR$/src/MVC/AI.java" />
+        <option value="$PROJECT_DIR$/src/MVC/GameAI/AI.java" />
       </list>
     </option>
   </component>
@@ -164,17 +185,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="FXpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="FXpractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FXpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FXpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="gifs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FXpractice" type="b2602c69:ProjectViewProjectNode" />
@@ -187,11 +204,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MVC" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FXpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FXpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="GameAI" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,6 +222,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553827103276" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -340,6 +366,8 @@
       <workItem from="1553703639010" duration="10822000" />
       <workItem from="1553797539863" duration="27034000" />
       <workItem from="1554144849845" duration="44000" />
+      <workItem from="1554577701996" duration="2092000" />
+      <workItem from="1554773731128" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="I dunno. I played it again, and when I opened it, intellij asked me if I wanted to add a file to the git.">
       <created>1553700758898</created>
@@ -348,18 +376,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553700758898</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="obligatory message">
+      <created>1554577735589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554577735589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97697000" />
+    <option name="totallyTimeSpent" value="100963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15708502" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15951417" />
+      <window_info id="Structure" order="1" weight="0.24939272" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -367,7 +402,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7247098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52072966" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,13 +424,46 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15951417" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52072966" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I dunno. I played it again, and when I opened it, intellij asked me if I wanted to add a file to the git." />
-    <option name="LAST_COMMIT_MESSAGE" value="I dunno. I played it again, and when I opened it, intellij asked me if I wanted to add a file to the git." />
+    <MESSAGE value="obligatory message" />
+    <option name="LAST_COMMIT_MESSAGE" value="obligatory message" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/collections/ObservableList.java">
@@ -510,9 +578,6 @@
     <entry file="file://$PROJECT_DIR$/gifs/blue-coin.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gifs/eating.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gifs/hungry.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -525,6 +590,17 @@
     <entry file="file://$PROJECT_DIR$/gifs/yellow-coin.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/gifs/death.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gifs/eating.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1493" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -535,39 +611,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/View.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+        <state relative-caret-position="192">
+          <caret line="222" column="23" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3213#3214#0" expanded="true" />
+            <element signature="e#3240#3241#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3304#3305#0" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
+            <element signature="e#3372#3373#0" expanded="true" />
+            <element signature="e#3732#3733#0" expanded="true" />
+            <element signature="e#3786#3787#0" expanded="true" />
+            <element signature="e#4359#4360#0" expanded="true" />
+            <element signature="e#4421#4422#0" expanded="true" />
+            <element signature="e#4736#4737#0" expanded="true" />
+            <element signature="e#4771#4772#0" expanded="true" />
+            <element signature="e#4809#4810#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/Control.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+        <state relative-caret-position="612">
+          <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
           <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
+            <element signature="method#setView#0;class#Control#0" />
+            <element signature="method#keyPressed#0;class#Control#0" />
+            <element signature="method#moveGuy#0;class#Control#0" />
+            <element signature="method#addRandomCoin#0;class#Control#0" />
+            <element signature="method#randomCoinCoord#0;class#Control#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/MVC/GameAI/AI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3372#3373#0" expanded="true" />
-            <element signature="e#3786#3787#0" expanded="true" />
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#4771#4772#0" expanded="true" />
-            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

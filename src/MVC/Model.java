@@ -6,7 +6,7 @@ public class Model {
     public static final double coinSpawnRate = 0.9;
     public static final int initialCoins = 10;
     public static final int runningLow = 30;
-    public static final Size board = new Size(7, 7);
+    public static final Size board = new Size(9, 9);
     public static final Size coinGrid = new Size(board.width * 2, board.height * 2);
 
     /* Color Grid data and methods ********************************************/

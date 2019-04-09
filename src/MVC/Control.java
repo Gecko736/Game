@@ -1,6 +1,9 @@
 package MVC;
 
 public class Control {
+    public static void main(String[] args) {
+
+    }
 
     private static View view;
     public static void setView(View _view) {
@@ -55,8 +58,7 @@ public class Control {
                 Model.removeCoin(c.x, c.y);
                 Model.increase(c.color);
             }
-            if (Math.random() < Model.coinSpawnRate)
-                addRandomCoin();
+            maybeAddRandomCoin();
             if (Model.isDead()) {
                 view.setGameOver(false);
                 gameOver = true;
@@ -108,25 +110,32 @@ public class Control {
         return validMove;
     }
 
-    public static void addRandomCoin() {
-        int x = (int) (Math.random() * Model.coinGrid.width);
-        int y = (int) (Math.random() * Model.coinGrid.height);
-        if (x != Model.guy.x * 2 && x != (Model.guy.x * 2) + 1 &&
-                y != Model.guy.y * 2 && y != (Model.guy.y * 2) + 1) {
+    public static void maybeAddRandomCoin() {
+        if (Math.random() < Model.coinSpawnRate) {
+            Coord c = randomCoinCoord();
             Coin coin;
             switch ((int) (Math.random() * 3)) {
                 case 0:
-                    coin = new Coin(x, y, Color.Red);
+                    coin = new Coin(c.x, c.y, Color.Red);
                     break;
                 case 1:
-                    coin = new Coin(x, y, Color.Blue);
+                    coin = new Coin(c.x, c.y, Color.Blue);
                     break;
                 default:
-                    coin = new Coin(x, y, Color.Yellow);
+                    coin = new Coin(c.x, c.y, Color.Yellow);
                     break;
             }
             view.addCoin(coin);
             Model.addCoin(coin);
         }
+    }
+
+    public static Coord randomCoinCoord() {
+        int x = (int) (Math.random() * Model.coinGrid.width);
+        int y = (int) (Math.random() * Model.coinGrid.height);
+        if (x != Model.guy.x * 2 && x != (Model.guy.x * 2) + 1 &&
+                y != Model.guy.y * 2 && y != (Model.guy.y * 2) + 1)
+            return new Coord(x, y);
+        return randomCoinCoord();
     }
 }
